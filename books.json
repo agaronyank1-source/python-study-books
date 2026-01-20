@@ -1,0 +1,28 @@
+[
+  {
+    "book_id": 1,
+    "author_name": "test-test",
+    "title": "test",
+    "bio": "test",
+    "number": 9991111999,
+    "email": "test@mail.ru",
+    "Number": 99999999999,
+    "Email": "test@example.com"
+  },
+  {
+    "book_id": 2,
+    "author_name": "Karen Berg",
+    "title": "Бог красит губы",
+    "bio": null,
+    "number": "792938384637",
+    "email": "test@mail.ru"
+  },
+  {
+    "book_id": 3,
+    "author_name": "string",
+    "title": "string",
+    "bio": "string",
+    "number": 99999999999,
+    "email": "user@example.com"
+  }
+]
