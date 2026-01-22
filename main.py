@@ -88,13 +88,11 @@ def books_update(book_id: int, book_bio: PatchBooksBio) -> PatchBooksBio:
 
 
 # TODO: Возвращать созданую книгу - закрыл
-# TODO: Добавить Git для версионирования
+# TODO: Добавить Git для версионирования - сделал (теперь там можно делать коммиты)
 # TODO: Дописать все методы из CRUD
 # TODO: С помощью библиотеки httpx вызывать каждый роут свой собственный
 
 if __name__ == "__main__":
     uvicorn.run(app, port=8000)
 
-# TODO:тесттест
-# TODO:тесттест
 # TODO:тесттест
