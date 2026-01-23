@@ -24,5 +24,30 @@
     "bio": "string",
     "number": 99999999999,
     "email": "user@example.com"
+  },
+  {
+    "book_id": 4,
+    "author_name": "string",
+    "title": "string",
+    "bio": "string",
+    "number": 99999999999,
+    "email": "user@example.com"
+  },
+  {
+    "book_id": 5,
+    "author_name": "string",
+    "title": "string",
+    "bio": "string",
+    "number": 99999999999,
+    "email": "user@example.com"
+  },
+  {
+    "new_book": "HTTPXtest",
+    "book_id": 6,
+    "author_name": "HTTPX_test",
+    "title": "HTTPX_test",
+    "bio": "HTTPX_test",
+    "number": 8444757558,
+    "Email": "user@example.com"
   }
 ]

@@ -48,14 +48,15 @@ def read_book_by_id(book_id: int) ->GetBooks:
 
 
 @app.post("/books", tags=["Добавление"], summary=["Добавить книги"])
-def create_book(new_book: str) -> CreateBooks:
+def create_book(new_book: CreateBooks) -> CreateBooks:
     new_data = {
+        "new_book": new_book.new_book,
         "book_id": len(books) + 1,
         "author_name": new_book.author_name,
         "title": new_book.title,
         "bio": new_book.bio,
         "number": new_book.number,
-        "email": new_book.Email
+        "Email": new_book.Email
     }
     books.append(new_data)
     save_new_books()
