@@ -1,11 +1,11 @@
 [
   {
     "book_id": 1,
-    "author_name": "test-test",
-    "title": "test",
-    "bio": "test",
-    "number": 9991111999,
-    "email": "test@mail.ru",
+    "author_name": "HTTPX_test",
+    "title": "HTTPX_test",
+    "bio": "HTTPX_test",
+    "number": 8444757558,
+    "email": "user@example.com",
     "Number": 99999999999,
     "Email": "test@example.com"
   },
@@ -44,6 +44,24 @@
   {
     "new_book": "HTTPXtest",
     "book_id": 6,
+    "author_name": "HTTPX_test",
+    "title": "HTTPX_test",
+    "bio": "HTTPX_test",
+    "number": 8444757558,
+    "Email": "user@example.com"
+  },
+  {
+    "new_book": "test Name ",
+    "book_id": 7,
+    "author_name": "HTTPX_test",
+    "title": "HTTPX_test",
+    "bio": "HTTPX_test",
+    "number": 8444757558,
+    "Email": "user@example.com"
+  },
+  {
+    "new_book": "Test Name",
+    "book_id": 8,
     "author_name": "HTTPX_test",
     "title": "HTTPX_test",
     "bio": "HTTPX_test",
