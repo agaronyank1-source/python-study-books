@@ -22,7 +22,7 @@ class CreateBooks(BasePass):
     title: str = Field(title="Название книги", max_length=70)
     bio: str | None = Field(title="БИО книги", default=None, max_length=200)
     number: int = Field(title="Номер телефона", ge=0, le=99999999999)
-    Email: EmailStr = Field(title="Почта автора")
+    email: EmailStr = Field(title="Почта автора")
 
 
 class GetBooks(BaseBooksModel):
@@ -40,3 +40,4 @@ class PutBooks(BasePass):
     bio: str | None = Field(title="БИО книги", default=None, max_length=200)
     number: int = Field(title="Номер телефона", ge=0, le=99999999999)
     email: EmailStr = Field(title="Почта автора")
+

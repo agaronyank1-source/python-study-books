@@ -25,7 +25,7 @@ def test_post_book():
        "title": "HTTPX_test",
        "bio": "HTTPX_test",
        "number": 8444757558,
-       "Email": "user@example.com"
+       "email": "user@example.com"
    }
    response = httpx.post(f"{BASE_URL}/books", json=new_test_book)
    print("POST/books", response.status_code, response.json())
@@ -44,7 +44,6 @@ def test_put_book():
 def test_patch_book():
     partial_data = {
         "title": "HTTPX_test",
-        "bio": "HTTPX_test",
         "number": 100000348
                     }
     response = httpx.patch(f"{BASE_URL}/books/1", json=partial_data)

@@ -56,7 +56,7 @@ def create_book(new_book: CreateBooks) -> CreateBooks:
         "title": new_book.title,
         "bio": new_book.bio,
         "number": new_book.number,
-        "Email": new_book.Email
+        "email": new_book.email
     }
     books.append(new_data)
     save_new_books()
